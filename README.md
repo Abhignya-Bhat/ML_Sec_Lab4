@@ -31,7 +31,7 @@
    3. Numpy 1.16.3
    4. Matplotlib 2.2.2
    5. H5py 2.9.0
-   6. TensorFlow-gpu 1.15.2
+   6. TensorFlow 
 
 ## II. Data
 
