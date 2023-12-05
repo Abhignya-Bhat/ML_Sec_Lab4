@@ -11,17 +11,17 @@
 ├── models
     ├── bd_net.h5
     ├── bd_weights.h5
-    ├── model_X=2.h5
-    ├── model_X=4.h5
-    ├── model_X=10.h5
-    ├── model_X_2.h5
-    ├── model_X_4.h5
-    └── model_X_10.h5
+    ├── model_X=2.h5 //increasing order of activations
+    ├── model_X=4.h5 //increasing order of activations
+    ├── model_X=10.h5 //increasing order of activations
+    ├── model_X_2.h5 //decreasing order of activations
+    ├── model_X_4.h5 //decreasing order of activations
+    └── model_X_10.h5 //decreasing order of activations
 ├── architecture.py
 ├── eval.py // this is the evaluation script
 ├── Evaluation using script given.ipynb
-├── ML_Sec_Lab4Channels pruned in decreasing order.ipynb
-└── ML_Sec_Lab4_Channels pruned in increasing order.ipynb
+├── ML_Sec_Lab4Channels pruned in decreasing order.ipynb //notebook with prescribed task
+└── ML_Sec_Lab4_Channels pruned in increasing order.ipynb //notebook with second experiment as first gave suspicious results
 ```
 
 ## I. Dependencies
