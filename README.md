@@ -20,7 +20,7 @@
 ├── architecture.py
 ├── eval.py // this is the evaluation script
 ├── Evaluation using script given.ipynb
-├── ML_Sec_Lab4Channels pruned in decreasing order.ipynb //notebook with prescribed task
+├── ML_Sec_Lab4_Channels pruned in decreasing order.ipynb //notebook with prescribed task
 └── ML_Sec_Lab4_Channels pruned in increasing order.ipynb //notebook with second experiment as first gave suspicious results
 ```
 
