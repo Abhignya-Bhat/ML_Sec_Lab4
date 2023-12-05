@@ -11,12 +11,17 @@
 ├── models
     ├── bd_net.h5
     ├── bd_weights.h5
-    ├── bd_prime_2.h5
-    ├── bd_prime_4.h5
-    └── bd_prime_10.h5
+    ├── model_X=2.h5
+    ├── model_X=4.h5
+    ├── model_X=10.h5
+    ├── model_X_2.h5
+    ├── model_X_4.h5
+    └── model_X_10.h5
 ├── architecture.py
 ├── eval.py // this is the evaluation script
-└── lab4.ipynb // this is the main python notebook to generate good models
+├── Evaluation using script given.ipynb
+├── ML_Sec_Lab4Channels pruned in decreasing order.ipynb
+└── ML_Sec_Lab4_Channels pruned in increasing order.ipynb
 ```
 
 ## I. Dependencies
