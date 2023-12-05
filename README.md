@@ -41,9 +41,14 @@
 
 ## III. Generate Good Models
 
-   1. Run `lab4.ipynb` by opening it in your favourite python notebook viewer/editor.
-   2. This will generate / overwrite the good models inside `models/` directory.
-   3. This will also evaluate and print the Accuracy and Attack Success Rate of these models but if you want you can test the same using the `eval.py` script as outlined below.
+   1. Run `ML_Sec_Lab4_Channels pruned in increasing order.ipynb` or `ML_Sec_Lab4_Channels pruned in decreasing order.ipynb` by opening it in your favourite python notebook viewer/editor.
+   2. This will generate / overwrite the repaired models.
+   3. Then run `Evaluation using script given.ipynb` to evaluate using given script.
+   4. Either of the three notebooks will evaluate and print the Accuracy and Attack Success Rate of these models using the given evaluation logic but if you want you can test the same using the `eval.py` script as outlined below.
+
+      ### Note:
+      ### I had to use Google Colab Pro when running `ML_Sec_Lab4_Channels pruned in increasing order.ipynb` because of memory constraints.
+      
 
 ## IV. Evaluating the Backdoored Model
 
@@ -58,3 +63,5 @@
 ## V. Important Notes
 
 Please use only clean validation data (valid.h5) to design the pruning defense. And use test data (test.h5 and bd_test.h5) to evaluate the models.
+
+When performing the experiment, pruning channels in decreasing order of average activations, the results were suspicious, so I ran another expirement, this time by pruning channels in increasing order of average activations.
